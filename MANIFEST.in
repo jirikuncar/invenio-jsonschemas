@@ -1,0 +1,45 @@
+include *.json
+include *.py
+include *.rst
+include *.txt
+include *.yml
+include .bowerrc
+include .dockerignore
+include Dockerfile
+incluce LICENSE
+include babel.cfg
+include mapping.cfg
+include requirements*.txt
+
+recursive-include docs *
+recursive-exclude docs/_build *
+
+recursive-include invenio_jsonschemas *.cfg
+recursive-include invenio_jsonschemas *.dat
+recursive-include invenio_jsonschemas *.dtd
+recursive-include invenio_jsonschemas *.html
+recursive-include invenio_jsonschemas *.in
+recursive-include invenio_jsonschemas *.jpeg
+recursive-include invenio_jsonschemas *.js
+recursive-include invenio_jsonschemas *.json
+recursive-include invenio_jsonschemas *.kb
+recursive-include invenio_jsonschemas *.lua
+recursive-include invenio_jsonschemas *.png
+recursive-include invenio_jsonschemas *.py
+recursive-include invenio_jsonschemas *.sql
+recursive-include invenio_jsonschemas *.txt
+recursive-include invenio_jsonschemas *.wsgi
+recursive-include invenio_jsonschemas *.xml
+recursive-include invenio_jsonschemas *.xsd
+recursive-include invenio_jsonschemas *.xsl
+recursive-include invenio_jsonschemas *.yml
+
+recursive-include invenio_jsonschemas/static *
+recursive-include invenio_jsonschemas/templates *
+recursive-include invenio_jsonschemas/testsuite *
+recursive-include invenio_jsonschemas/translations *.mo *.po *.pot
+
+recursive-include scripts *.sh
+recursive-include scripts *.py
+
+recursive-exclude * *.py[co]
